@@ -28,10 +28,10 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-ja0xz9yb)w5%#c6t3tglxh9hhx^4sf@f)qd+$lb3b@tyyb=x0t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -93,11 +93,11 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': env('POSTGRESQL_DB'),
-        'USER': env('POSTGRESQL_USER'),
-        'PASSWORD': env('POSTGRESQL_PWD'),
-        'HOST': env('POSTGRESQL_HOST'),
-        'PORT': env('POSTGRESQL_PORT'),
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'LHXoqsQCzhLUeZbtPobHkuvkQlxfCfcz',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '57626',
     }
 }
 
