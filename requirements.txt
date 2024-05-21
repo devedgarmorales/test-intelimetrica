@@ -4,4 +4,4 @@ ipython
 djangorestframework
 django-cors-headers
 django-environ
-#GDAL
+GDAL==3.6.2
