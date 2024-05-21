@@ -4,3 +4,4 @@ ipython
 djangorestframework
 django-cors-headers
 django-environ
+GDAL
