@@ -1,1 +1,1 @@
-web: python manage.py makemigration && python manage.py migrate && python manage.py importar_restaurantes restaurantes.csv && python manage.py collectstatic && gunicorn melp.wsgi
+web: sh railway.sh
