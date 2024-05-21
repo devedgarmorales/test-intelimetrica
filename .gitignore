@@ -1,0 +1,130 @@
+*.sqlite3
+mydatabase
+migrations/
+venv2/
+*.pyc
+*.swp
+*.DS_Store*
+logs/
+*.log
+
+.idea
+.idea/httpRequests
+.vagrant
+Vagrantfile
+scripts/sftp_data/*
+BASE_DIR/*
+media/*
+.vscode/
+# Módulos de Node.js
+node_modules
+report
+report.map
+package-lock.json
+
+# Respaldos
+*.backup
+
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+#dist/
+downloads/
+eggs/
+.eggs/
+#lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+### Sass template
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+### macOS template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+### Windows template
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+scripts/recursos/
+
+# Cache para desarrollo local
+cache
+
+static/*
+scripts/out*
+jupyter/*
