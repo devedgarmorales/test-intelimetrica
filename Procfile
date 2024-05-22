@@ -1,1 +1,1 @@
-web: sh railway.sh
+web: gunicorn --bind 0.0.0.0:8000 melp.wsgi
