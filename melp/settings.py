@@ -96,9 +96,9 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'kKuRlBCCAUobVsuOqRKnmDsUgIFgaNFF',
-        'HOST': 'monorail.proxy.rlwy.net',
-        'PORT': '21966',
+        'PASSWORD': 'cG13c35Ec3GeCe4g2cfe31cBGd1dFGA5',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '23686',
     }
 }
 
