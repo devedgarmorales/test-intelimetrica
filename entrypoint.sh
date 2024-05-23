@@ -1,7 +1,13 @@
 #!/bin/sh
 
-echo 'Running migrations...'
-python manage.py makemigrations && python manage.py migrate
+echo 'Running migrate...'
+python manage.py migrate
+
+echo 'Running makemigrations...'
+python manage.py makemigrations restaurantes
+
+echo 'Running migrate...'
+python manage.py migrate
 
 echo 'Running command...'
 python manage.py importar_restaurantes restaurantes.csv
