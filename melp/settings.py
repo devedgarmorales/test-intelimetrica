@@ -92,13 +92,22 @@ DATABASES = {
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
 
+    # 'default': {
+    #     'ENGINE': 'django.contrib.gis.db.backends.postgis',
+    #     'NAME': 'railway',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'LHXoqsQCzhLUeZbtPobHkuvkQlxfCfcz',
+    #     'HOST': 'viaduct.proxy.rlwy.net',
+    #     'PORT': '57626',
+    # }
+
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'LHXoqsQCzhLUeZbtPobHkuvkQlxfCfcz',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '57626',
+        'NAME': 'melp',
+        'USER': 'edgarmorales',
+        'PASSWORD': '14120221',
+        'HOST': '192.168.2.46',
+        'PORT': '5432',
     }
 }
 
